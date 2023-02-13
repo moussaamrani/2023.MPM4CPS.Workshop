@@ -1,0 +1,196 @@
+\section{Motivation}
+\label{sec:Motivation}
+
+%\subsection{Objectives and Scope}
+%\label{sec:Objectives-Scope}
+
+\noindent
+\textbf{Objectives and Scope.}
+%
+Tackling the complexity involved in developing truly complex, designed systems 
+is a topic of intense research and development.
+In the past, system complexity has drastically increased once software components 
+were introduced in the form of embedded systems, controlling physical parts of 
+the system, and has only grown in CPS, where the networking aspect of the systems 
+and their environment are also taken into account.
+The complexity faced when engineering CPS is mostly due to the plethora of 
+cross-disciplinary design alternatives and inter-domain interactions.
+To date, no unifying theory nor system design methods, techniques, or tools to 
+design, analyze, and ultimately deploy CPS exist.
+Individual (physical systems, network, software) engineering disciplines offer 
+only partial solutions and are no match for CPS complexity.
+
+
+
+\emph{Multi-Paradigm Modeling (MPM)} offers a foundational framework for gluing the 
+several disciplines together in a consistent way.
+The inherent complexity of CPS is broken down into different levels of 
+abstraction and views, each expressed in appropriate modeling formalisms.
+MPM offers processes and tools that can integrate the views, abstractions and 
+components that make up a CPS.
+
+MPM encompasses many research topics: from language engineering (for DSLs, 
+including their (visual) syntax and semantics), to processes to support multi-view 
+and multi-abstraction modelling, simulation for full-system analysis, and deployment.
+The added complexity that CPS bring compared to embedded and software-intensive 
+systems requires consideration of how MPM techniques can be applied or adapted 
+to these new applications, tying together multiple domains.
+Many remaining research questions require answers from researchers in different 
+domains, as well as a unified effort from researchers that work on supporting 
+techniques and technologies.
+The community needs a workshop setting to meet up and align past and future 
+research activities.
+
+
+\smallskip\noindent
+\textbf{Workshop's Purpose.} During this Workshop, we want to bring together 
+researchers and practitioners in the area of MPM (specifically applied to 
+developing CPS) in order to identify possible points of synergy, common problems
+and solutions, tool building aspects and the vision for the future of the area.
+The goal is to organize a \textbf{highly interactive workshop}, with a significant 
+portion of the Workshop dedicated to \textbf{discussions}.
+\textbf{"Regular" Research papers} from academic and industry authors 
+   will present novel research results on the Workshop's topics of interest. 
+   We will encourage the submission of out-of-the-box presentations, which are 
+   not deeply researched yet, but can lead to new insights, discussions, and 
+   future collaborations.
+
+As we already proposed last year, we will invite the submission of 
+   \textbf{Exemplars}, i.e., typical yet relatively tractable use cases of CPS 
+   demonstrating typical activities required for CPS Engineering, and explicitly
+   detailing the underlying formalisms, languages and tools deployed to support 
+   such activities, all expressed in a similar way to enable comparison and 
+   extract CPS Engineering common practices and design patterns.
+
+Those directions were not possible during the two previous editions due to the
+virtual nature of the Workshop, but we hope to foster new topics and have small
+groups discussing and brainstorming around the exemplars we collected so far 
+(including the ones resulting from the previous edition).
+
+
+%\subsection{Intended Audience}
+%\label{sec:Audience}
+
+\smallskip
+\noindent
+\textbf{Intended Audience.}
+%
+The intended audience includes researchers as well as practitioners who are 
+interested in MPM techniques in the context of CPS development.
+We expect to attract many attendees of earlier MPM-related events, those who 
+contributed to the COST action, as well as a broader audience.
+This includes researchers that work on the fundamentals of language 
+engineering, (visual) modelling environment construction, (co-)simulation 
+techniques, as well as tool builders and users of these tools.
+
+
+%\subsection{Topics of Interest}
+%\label{sec:ToI}
+
+\smallskip
+\noindent
+\textbf{Topics of Interest.}
+%
+A list of topics of interest is given in the CfP available in Appendix.
+Note that we have explicitly included \emph{classification} and \emph{exemplar} 
+topics, as it is key to structure and discuss the future of MPM, and integrated 
+broad topics related to \#MDE4SG (in the two last points).
+
+%\begin{itemize}
+   %\item Foundations of domain-specific modelling, with a particular focus on 
+   %\emph{classifications} of the various dimensions around MPM (formalisms; processes;
+   %related activities such as V\&V, deployment, calibration, etc.; tools, and 
+   %methodologies);
+   %\item Modelling language engineering, modular design of modelling languages, 
+   %with a particular focus on de-/composition;
+   %\item Co-simulation, coordination algorithms ensuring correct simulation results.
+   %\item Digital twins of complex systems and their relationship to MPM techniques.
+   %\item Applications of MPM techniques in automotive, aviation, manufacturing, etc.
+   %\item MPM for (self-)adaptive systems
+   %\item Machine Learning applied in an MPM context, Smart CPS
+   %\item Social impacts processes in CPS, Large Data Management Modelling in CPS
+%\end{itemize}
+
+%\subsection{Relevance}
+%\label{sec:Relevance}
+
+\noindent
+\textbf{Relevance.}
+%
+The MODELS conference is an ideal venue for organizing MPM4CPS since it brings 
+together researchers that aim to advance the state-of-the-art in model-driven 
+engineering and practitioners who have valuable application experiences to share.
+
+
+
+%\subsection{Context}
+%\label{sec:Context}
+
+\smallskip
+\noindent
+\textbf{Context.}
+%
+The MPM community has been actively researching new techniques for system design 
+for over a decade, through many related events.
+One-week Computer Automated Multi-Paradigm Modeling (CAMPaM) workshops have been 
+organized yearly since 2004 at McGill University’s Bellairs campus, Barbados. 
+Additionally, the International Summer School on Domain-Specific Languages - 
+Theory and Practice (DSM-TP), focused on the education of language engineering 
+techniques, and has been organized since 2009.
+Its target audience includes Ph.D. students, researchers, and software industry 
+professionals.
+Most recently, a European Cooperation in Science and Technology (COST) research 
+network has been active since 2015 on the use of MPM techniques for designing 
+CPS, bringing together 29 European partner countries\footnote{https://www.cost.eu/actions/IC1404/ 
+and http://mpm4cps.eu/}.
+The chair and co-chair of this network (Hans Vangheluwe and Vasco Amaral) are 
+members of the steering committee for this workshop.
+
+The first edition of the workshop has lead to the preparation of a theme section
+on the topic of MPM4CPS for the SoSyM journal (which has been finally published%
+\footnote{ https://link.springer.com/article/10.1007/s10270-021-00882-1}).
+The second and third editions were operated fully online, and therefore have been
+reduced to half-day workshops consisting solely of paper presentations, albeit with
+longer discussion periods (typically, 10-15 minutes after each presentation), and
+each paper presentation session still attracted ca. 20-25 participants with lively,
+interesting discussions. Because of the virtual/online nature of these editions,
+hosting an interactive/''brainstorming'' session was difficult, but we strongly
+believe those sessions are at the heart of MPM4CPS, and will attract enough
+participants (around 10, not counting the organisation members).
+
+All these initiatives, as well as the success during the online editions, 
+demonstrate both the continued relevance of the topic, and the 
+potential impact of a new edition of the workshop.
+
+
+
+%\subsection{Needs}
+%\label{sec:Needs}
+
+\smallskip
+\noindent
+\textbf{Needs.}
+%
+The MPM4CPS workshop (series) follows the successful series of nine MPM workshops that 
+were organized as part of the MODELS conference during the years 2006 through 2015.
+These workshops attracted many participants in the past, and we saw that the topic
+is still relevant, since the previous editions attracted many submissions and lively discussions.
+These two reasons make this workshop worth organizing at MODELS this year.
+
+Historically, GeMoC and EXE, now merged into the MLE (Modeling Language 
+Engineering and Execution), were the closest workshops planned to be organised 
+in MoDELS this year. They focus mainly on two topics: the globalization of
+modeling techniques, which include techniques and processes to create and
+integrate heterogeneous languages, and the execution, animation and debugging
+of modeling languages. While both are concerned with specific aspects of 
+\emph{software} language engineering, MPM includes modeling languages for 
+physical domains (e.g., electrical, mechanical, etc.) that require 
+continuous-time solvers for simulation, and clean integration with other (SW/HW) 
+languages.
+MPM4CPS further differentiates from those workshops by focusing on CPS. 
+We believe that both workshops can strengthen each other by focusing on different 
+(specialized) aspects of challenges within the MODELS community.
+
+The challenges to design and develop CPS, with a focus on MPM techniques as a 
+foundational framework for supporting the multi-domain models, tools, and 
+processes are fundamental enough to warrant a focused workshop.

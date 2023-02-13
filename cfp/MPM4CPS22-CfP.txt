@@ -1,0 +1,67 @@
+
+Organizing Committee
+
+Moussa Amrani, Université de Namur
+Dominique Blouin, Télécom Paris, IP Paris
+Moharram Challenger, University of Antwerp
+Julien Deantoni, Université Nice - Sophia Antipolis
+Robert Heinrich, Karlsruhe Institute of Technology
+Manuel Wimmer, JKU Linz, CDL-MINT
+
+Steering Committee
+
+Hans Vangheluwe, University of Antwerp  Flanders Make and McGill University
+Pieter J. Mosterman, The Mathworks
+Jeff Gray, University of Alabama
+Vasco Amaral, Universidade Nova de Lisboa
+
+Program Committee
+    
+Andrea d'Ambrogio, University of Rome Tor Vergata
+Andreas Wortmann, University of Stuttgart
+Ankica Barisic, Université Côte d'Azur
+Antonio Cicchetti, Mälardalen Research and Technology Centre (MRTC)
+Antonio Vallecillo, Universidad de Málaga
+Bran Selic, Malina Software Corporation
+Clark Verbrugge, McGill University
+Eugene Syriani, Université de Montréal
+Ferhat Erata, Yale University
+Federico Ciccozzi, Mälardalen University
+Frédéric Boulanger, CentraleSupélec and Laboratoire 
+Hana Mkaouar, Télécom Paris, IP Paris
+Mauro Iaccono, University of Campania Luigi Vanvitelli
+Rahele Eslampanah, University of Antwerp
+Shaukat Ali, Simula Research Laboratory
+Soumyadip Bandyopadhyay BITS Pilani, India
+Stefan Klikovits, National Institute of Informatics Tokyo
+Thomas Kühne, Victoria University of Wellington
+
+Scope of the Workshop
+
+Tackling the complexity involved in developing truly complex, designed systems is a topic of intense research and development. System complexity has drastically increased once software components were introduced in the form of embedded systems, controlling physical parts of the system, and has only grown in CPS, where the networking aspect of the systems and their environment are also considered. The complexity faced when engineering CPS is mostly due to the plethora of cross-disciplinary design alternatives and inter-domain interactions. To date, no unifying theory or system design methods, techniques, or tools to design, analyze, and ultimately deploy CPS exist. Individual (physical systems, software and network) engineering disciplines offer only partial solutions and are no match for the complexity observed in CPS. Multi-Paradigm Modeling (MPM) offers a foundational framework for gluing the several disciplines together in a consistent way. The inherent complexity of CPS is broken down into different levels of abstraction and views, each expressed in appropriate modeling formalisms. MPM offers processes and tools that can combine, couple, and integrate each of the views that compose a system.
+MPM encompasses many research topics - from language engineering (for DSLs, including their (visual) syntax and semantics), to processes to support multi-view and multi-abstraction modeling, simulation for system analysis, and deployment. The added complexity that CPS brings compared to embedded and software-intensive systems requires looking at these new applications and how MPM techniques can be applied or adapted to them, tying together multiple domains. Many remaining research questions require answers from researchers in different domains, as well as a unified effort from researchers that work on supporting techniques and technologies.
+Topics of Interest (including, but not limited to)
+* Foundations of domain-specific modelling, with a particular focus on classifications of the various dimensions around MPM (formalisms; processes; related activities such as V&V, deployment, calibration, etc.; tools, and methodologies);
+* Modelling language engineering, modular design of modelling languages, with a particular focus on de-/composition;
+* Co-simulation, coordination algorithms ensuring correct simulation results.
+* Digital twins of complex systems and their relationship to MPM techniques.
+* Applications of MPM techniques in automotive, aviation, manufacturing, etc.
+* MPM for (self-)adaptive systems
+* Machine Learning applied in an MPM context, Smart CPS
+* Social impacts processes in CPS, Large Data Management Modelling in CPS
+
+Contributions should clearly address the foundations of multi-paradigm modeling by demonstrating the use of models to achieve the stated objectives and discuss the benefits of explicit modeling.
+Important Dates
+Paper submission deadline: 20 July 2022
+Notification of acceptance: 19 August 2022
+Workshop dates: September 16 - 18 October 2021 (exact date TBA)
+Submission Procedure
+Papers should be submitted electronically in PDF using the ACM formatting instructions available here via EasyChair for one of the following topics. Each submission will be peer-reviewed by at least three PC members.
+*  Full research papers (10 pages max) present a novel, innovative approach;
+*  Short papers (5 pages max) present new ideas or early-stage research, extensively discuss the experiences of the researchers with an MPM approach or demonstrate a tool;
+*  Exemplar descriptions (10 pages max) describing a CPS Engineering practice, highlighting both the processes at play and the formalisms, languages and/or tools used to support these activities, all expressed using the language described in the Workshops webpage.
+All papers will be published with the main conferences workshop proceedings; authors submitting exemplars will eventually be invited to contribute to a Special Issue.
+
+[Tapez le texte][Tapez le texte][Tapez le texte]
+
+
