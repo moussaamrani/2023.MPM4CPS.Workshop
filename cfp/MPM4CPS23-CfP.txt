@@ -16,7 +16,6 @@ Vasco Amaral, Universidade Nova de Lisboa
 
 Program Committee
     
-Rima Al-Ali, KB , Czech Republic
 Shaukat Ali, Simula Research Laboratory, Norway
 Ankica Barisic, University Cote d'Azure, France
 Fernando Barros, Universidade de Coimbra, Portugal
